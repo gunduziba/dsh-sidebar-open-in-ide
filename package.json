@@ -31,5 +31,21 @@
   "engines": {
     "node": ">=22"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunduziba/dsh-sidebar-open-in-ide.git"
+  },
+  "homepage": "https://github.com/gunduziba/dsh-sidebar-open-in-ide#readme",
+  "bugs": {
+    "url": "https://github.com/gunduziba/dsh-sidebar-open-in-ide/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "jetbrains",
+    "intellij-idea",
+    "sidebar",
+    "mcp"
+  ]
 }

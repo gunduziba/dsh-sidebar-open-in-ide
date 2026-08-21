@@ -13,6 +13,14 @@
 - **打开后自动激活 IDE 窗口**：macOS `open -a` / Windows PowerShell AppActivate / Linux wmctrl→xdotool（尽力而为，失败不影响打开）
 - **DSH 设置页**：「在 IDEA 中打开」设置项（ideaHome），免改配置文件
 
+## 截图
+
+| 文件管理（explorer） | 源代码管理（git） | 文件预览 |
+|---|---|---|
+| ![screenshot-1](assets/screenshots/screenshot-1.png) | ![screenshot-2](assets/screenshots/screenshot-2.png) | ![screenshot-3](assets/screenshots/screenshot-3.png) |
+
+> 表格标题为占位说明，可按实际截图内容修改。
+
 ## 依赖
 
 | 依赖 | 版本 | 必需 | 说明 |
