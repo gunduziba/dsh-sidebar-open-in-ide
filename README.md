@@ -1,6 +1,6 @@
 # dsh-sidebar-open-in-ide
 
-在 DSH Web GUI 中一键把文件送到 IntelliJ IDEA 打开——依托 JetBrains MCP Server（stdio 直连），不经过 mcp-proxy 网关。
+在 DSH Web GUI 中一键把文件送到 IntelliJ IDEA 打开——依托 JetBrains MCP Server（stdio 直连）。
 
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
