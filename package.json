@@ -1,6 +1,6 @@
 {
   "name": "dsh-sidebar-open-in-ide",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Open files in JetBrains IDEA from the DSH web GUI, via the JetBrains MCP stdio server",
   "type": "module",
   "main": "lib/index.js",
@@ -13,10 +13,11 @@
     "lib"
   ],
   "dependencies": {
-    "schemastery": "^3.18.0",
-    "@deepseek-ai/dsh-settings": "^0.1.1-rc.1"
+    "schemastery": "^3.18.0"
   },
   "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-settings": "^0.1.2-rc.1",
     "dsh-better-sidebar": ">=0.14.0"
   },
   "dsh": {
@@ -24,7 +25,8 @@
       "platform": "web",
       "immediately": true,
       "inject": [
-        "@deepseek-ai/dsh-client-runtime"
+        "slots",
+        "sessions"
       ]
     }
   },
