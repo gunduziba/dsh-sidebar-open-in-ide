@@ -1,7 +1,7 @@
 {
   "name": "dsh-sidebar-open-in-ide",
-  "version": "0.2.0",
-  "description": "Open files in JetBrains IDEA from the DSH web GUI, via the JetBrains MCP stdio server",
+  "version": "0.3.0",
+  "description": "Open files in JetBrains IDEA from the DSH web GUI, via official Streamable HTTP MCP server",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
